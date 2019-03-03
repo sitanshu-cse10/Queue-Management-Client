@@ -176,6 +176,27 @@
             />
 
     </LinearLayout>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="200dp">
 
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="1dp"
+        android:text="Add Patient"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="230dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:textSize="20sp"
+        android:src="@drawable/add"/>
+</LinearLayout>
 </LinearLayout>
