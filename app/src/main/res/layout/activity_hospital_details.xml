@@ -19,44 +19,68 @@
         android:layout_gravity="top"
         android:src="@drawable/logo_project"/>
 
-    <EditText
+    <android.support.design.widget.TextInputLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="15"
-        android:textSize="20dp"
-        android:layout_marginHorizontal="50dp"
-        android:hint="Hospital Name"/>
+        android:layout_marginHorizontal="45dp">
 
-    <EditText
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="200dp"
+            android:layout_marginHorizontal="29dp"
+            android:ems="15"
+            android:layout_height="wrap_content"
+            android:hint="Hospital name" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="15"
-        android:textSize="20dp"
-        android:layout_marginHorizontal="50dp"
-        android:hint="Phone Number"/>
+        android:layout_marginHorizontal="40dp">
 
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="15"
-        android:textSize="20dp"
-        android:layout_marginHorizontal="50dp"
-        android:hint="Email Id"/>
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="15"
-        android:textSize="20dp"
-        android:layout_marginHorizontal="50dp"
-        android:hint="Password"/>
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="200dp"
+            android:layout_marginHorizontal="29dp"
+            android:ems="15"
+            android:layout_height="wrap_content"
+            android:hint="Phone Number" />
+    </android.support.design.widget.TextInputLayout>
 
-    <EditText
+    <android.support.design.widget.TextInputLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="15"
-        android:textSize="20dp"
-        android:layout_marginHorizontal="50dp"
-        android:hint="Re-enter Password"/>
+        android:layout_marginHorizontal="40dp">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="200dp"
+            android:layout_marginHorizontal="29dp"
+            android:ems="15"
+            android:layout_height="wrap_content"
+            android:hint="Email Id " />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="200dp"
+            android:layout_marginHorizontal="29dp"
+            android:ems="15"
+            android:layout_height="wrap_content"
+            android:hint="Password " />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="200dp"
+            android:layout_marginHorizontal="29dp"
+            android:ems="15"
+            android:layout_height="wrap_content"
+            android:hint="Re-enter Password" />
+    </android.support.design.widget.TextInputLayout>
 
     <Button
         android:layout_width="wrap_content"
@@ -65,7 +89,8 @@
         android:textSize="20dp"
         android:textStyle="bold"
         android:layout_marginTop="25dp"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center"
+        android:background="@drawable/gradient_button"/>
 
 
 </LinearLayout>

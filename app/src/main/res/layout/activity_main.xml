@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:xmlnsapp="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:padding="15dp"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:padding="15dp">
 
     <ImageView
         android:layout_width="match_parent"
@@ -18,12 +17,14 @@
         android:layout_gravity="center"
         android:layout_width="150dp"
         android:text="Login"
+        android:background="@drawable/gradient_button"
         android:textSize="30sp"
         android:layout_height="wrap_content" />
     <Button
         android:layout_gravity="center"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="10dp"
         android:layout_width="180dp"
+        android:background="@drawable/gradient_button"
         android:text="Register"
         android:textSize="30sp"
         android:layout_height="wrap_content" />
